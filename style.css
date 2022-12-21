@@ -10,8 +10,8 @@ body {
 .header {
   background-color: white;
   background-image: linear-gradient(to bottom right, #A7C7E7, pink);
-  padding: 0px;
-  height: 100%
+  padding: 40px;
+  height: 100vh;
   text-align: center;
   font-size: 30px;
 }
