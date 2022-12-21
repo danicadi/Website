@@ -41,7 +41,7 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   font-family: Serif Roman, sans-serif;
 }
 
