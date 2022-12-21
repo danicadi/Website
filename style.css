@@ -5,14 +5,13 @@
 
 body {
   font-family: Serif Roman, sans-serif;
-  padding: 0px;
-  
 }
 
 .header {
   background-color: white;
   background-image: linear-gradient(to bottom right, #A7C7E7, pink);
   padding: 40px;
+  padding-right: 30%;
   height: 50vh;
   text-align: left;
   font-size: 25px;
