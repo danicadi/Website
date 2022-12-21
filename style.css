@@ -9,8 +9,8 @@ body {
 
 .header {
   background-color: white;
-  background-image: linear-gradient(to bottom right, blue, pink);
-  padding: 30px;
+  background-image: linear-gradient(to bottom right, #A7C7E7, pink);
+  padding: 0px;
   height: 100%
   text-align: center;
   font-size: 30px;
@@ -19,6 +19,7 @@ body {
 .column {
   float: left;
   width: 100%;
+  height: 100%
   padding: 10px;
 
 }
