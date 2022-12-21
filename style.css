@@ -48,7 +48,7 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  align-items: center;
+  align-items: right;
 }
 
 nav li {
@@ -62,6 +62,6 @@ nav a {
 }
 
 .right {
-  margin-left: 400px;
+  margin-left: 40px;
 }
 
