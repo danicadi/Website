@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <html style='overflow: hidden !important;'>
-</html>
-
-
-
 <head>
-<meta charset="UTF-5">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-<title>Home</title>
-<link rel="icon" type="image/x-icon" href="favicon.ico?v=2"  />
-
-<script type="text/javascript">
-    if (screen.width <= 699) {
-    document.location = "mobile.html";
-    }
-
-    </script>
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
-    <div class = "header">
-        <img src="chicken.png" alt="chicken">
-           
-        <div class= "inner_header">
-            <ul class= "navigation">
-                <a href="home.html" style="text-decoration:none"><li>HOME</li></a>
-                <a href="about.html" style="text-decoration:none"><li>ABOUT</li></a>
-                <a href="projects.html" style="text-decoration:none"><li>PROJECTS</li></a>
-                <a href="contact.html" style="text-decoration:none"><li>CONTACT</li></a>
-            </ul>
-        </div>
-    </div>
-
-    <div class="hometext">
-        <p class="line-1 anim-typewriter">>WELCOME.</p>
-
-        <p class="welcomepara"> Hello, and welcome to my website. Here you will find a collection of my work,
-            information about myself as well as my contact information. 
-            Thanks for stopping by.
-        </p>
-    </div>
-    
+  <header>
+    <h1>Welcome to my Personal Portfolio</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Project 1</li>
+        <li>Project 2</li>
+        <li>Project 3</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: info@personalportfolio.com</p>
+      <p>Phone: 555-555-5555</p>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright 2022</p>
+  </footer>
 </body>
-
 </html>
